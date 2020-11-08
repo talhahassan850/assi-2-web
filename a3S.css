@@ -1,0 +1,31 @@
+#a1 {
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.a2 {
+  display: flex;
+  justify-content: center;
+}
+
+#a4,
+#DeleteButton {
+  margin-left: 0.5em;
+  background-color: antiquewhite;
+  color: blue;
+  border: none;
+}
+#cal {
+  margin-left: 0.5em;
+  background-color: antiquewhite;
+  color: blue;
+  border: none;
+}
+
+#a10 {
+  margin-top: 5em;
+}
+
+.er {
+  border: 2px solid yellow;
+}

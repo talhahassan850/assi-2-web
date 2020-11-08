@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>A3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./popper.min.js"></script>
+    <script src="./bootstrap.min.js"></script> 
+    <script src="./a3.js"></script>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./a3S.css">
+    </head>
+  <body>
+    
+    <h1 id="a1">Calculater</h1>
+
+    <div class="a2">
+        <select name="recipe" id="recipe" >
+             <option disabled>Milk (higher % of simple carbohydrates; less nutrient</option>
+             <option carb="26" cal="208"  selected>Chocolate milk </option>
+             <option carb="12" cal="121" >Low fat (2</option>
+             <option carb="30" cal="161">Pudding (any flavor) (1</option>
+             <option carb="12" cal="86" >Skim milk </option>
+             <option carb="42" cal="225">Yogurt (fruit-flavored, low fat) </option>
+             <option carb="34" cal="220" >Yogurt (frozen, low fat) </option>
+
+
+             <option disabled>Beans (higher % of complex carbohydrates; more nutrient dense)
+             </option>
+             <option carb="22" cal="134" >Black eye peas (1</option>
+             <option carb="45" cal="269" >Garbanzo beans (chick peas) </option>
+             <option carb="48" cal="259" >Navy beans </option>
+             <option carb="44" cal="235" >Pinto beans </option>
+             <option carb="26" cal="142" >Refried beans (1</option>
+             <option carb="45" cal="249" >White beans </option>
+                                        
+
+             <option disabled>Vegetables (higher % of complex carbohydrates; more nutrient</option>
+             <option carb="8" cal="31">Carrot (1 </option>
+             <option carb="21" cal="89">Corn (1</option>
+             <option carb="20" cal="108">Beans, Lima (1/2 cup </option>
+             <option carb="12" cal="63">Peas, green (1</option>
+             <option carb="50" cal="220">Potato (1 large, baked,</option>
+             <option carb="28" cal="118">Sweet Potato (1</option>
+             <option carb="20" cal="90">Three-bean salad (1</option>
+                                        
+                                        
+             <option disabled>Fruits (higher % of simple carbohydrates; less nutrient</option>
+             <option carb="21" cal="81">Apple (1 </option>
+             <option carb="28" cal="111">Apple juice </option>
+             <option carb="60" cal="232">Applesauce </option>
+             <option carb="27" cal="105">Ban</option>
+             <option carb="14" cal="57">Cantaloupe </option>
+             <option carb="61" cal="228">Dates (dri</option>
+        </select>    
+
+        <button id="a4"><b> Add recipe</b></button>
+    </div>
+
+
+        <table class="table table-bordered" id="a10">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Carbohydrates</th>
+                <th>Calories</th>
+                <th>Action</th>
+             </tr>
+            </thead>
+            <tbody id="a6">
+                
+            
+            
+            </tbody>
+            <tfoot>
+            <tr>
+            <th>total</th>
+            <td id="carbTotal"></td>
+            <td id="calTotal"></td>
+            <td><button id="cal"><b>Calculate</b></button></td>
+            </tr>
+          </tfoot>
+           
+          </table>
+
+    
+    </body>
+</html>
